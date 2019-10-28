@@ -1,0 +1,7 @@
+{
+    "name": "site_formulaire",
+    "description": "",
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
