@@ -35,4 +35,9 @@
     </div>
 </div>
 
+<div class="champsInterdit">
+    <label for="name">Name :</label>
+    <input type="name" name="name" id="name" class="form-control">
+</div>
+
 <button class="pull-right btn btn-primary" type="submit">Valider</button>

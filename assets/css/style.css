@@ -54,6 +54,12 @@ form textarea {
 	background: rgba(0, 255, 0, .5);
 }
 
+.champsInterdit {
+	padding-top: 5px;
+	height: 5px;
+	overflow: hidden;
+}
+
 .sup {
 	vertical-align: super;
 }

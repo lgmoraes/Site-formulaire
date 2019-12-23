@@ -4,7 +4,9 @@
     $sendedMail = false;
 
     if (!empty($_POST['prenom'])) {
-        envoi_mail_formulaire();
+        if (empty($_POST['name']))  // name is a honeypot
+            envoi_mail_formulaire();
+        
         $sendedMail = true;
     }
 ?>
