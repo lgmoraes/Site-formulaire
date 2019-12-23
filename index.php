@@ -4,7 +4,6 @@
     $sendedMail = false;
 
     if (!empty($_POST['prenom'])) {
-        error_log(print_r($_POST, TRUE), 0);
         envoi_mail_formulaire();
         $sendedMail = true;
     }
